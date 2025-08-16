@@ -203,6 +203,12 @@
      padding: 8px;
  }
 
+ .hero-section .hero-section__content h1 {
+     font-size: 36px;
+     font-weight: 700;
+     line-height: 1.8;
+ }
+
  .hero-section .hero-section__content h1,
  .hero-section .hero-section__content p {
      margin: 0;
