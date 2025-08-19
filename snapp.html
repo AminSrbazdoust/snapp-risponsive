@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="assets/style/regular.css" />
         <link rel="stylesheet" href="assets/style/brands.css" />
         <link rel="stylesheet" href="assets/style/solid.css" />
+        <link rel="stylesheet" href="assets/style/responsive.css" />
     </header>
     <body>
         <div class="header">
@@ -18,41 +19,43 @@
                           <img  src="https://web-cdn.snapp.ir/snapp-website/icons/snappTextLogo.svg"/>
                         </a>
                     </div>
-                    <div class="main-menu">
-                        <ul>
-                          <li class="open-down"><a href="#">سوپر اسنپ </i> <i class="fa-solid fa-angle-down"></i> </a>
-                            <div class="sub-menu">
-                        <ul>     
-                          <li> <a href="#"> درخواست تاکسی</a> </li> 
-                          <li> <a href="#"> پیک موتوری</a></li>
-                          <li><a href="#"> سفارش غذای انلاین</a></li>  
-                          <li><a href="#"> رزرو بلیط هواپیما</a></li>  
-                          <li><a href="#"> رزرو بلیط قطار</a></li>  
-                          <li><a href="#"> رزرو بلیط اتوبوس</a></li> 
-                          <li><a href="#"> رزرو هتل</a></li> 
-                          <li><a href="#">  درخواست وانت بار</a></li> 
-                          <li><a href="#">خدمات اسباب کشی  </a></li> 
-                          <li><a href="#">فروشگاه اسنپ </a></li> 
-                          <li><a href="#"> سرویس اعتباری</a></li> 
-                          <li><a href="#"> پزشک و مشاور</a></li> 
-                          <li><a href="#">اسنپ پرو </a></li> 
-                        </ul>
-                        </div>
-                    </li>
-                          <li><a href="#">ثبت نام راننده اسنپ</a></li>
-                          <li><a href="#">باشگاه رانندگان</a></li>
-                          <li><a href="#">پنل سازمانی </a></li>
-                          <li><a href="#">بلاگ</a></li>
-                          <li class="open-down-one"><a href="#">درباره اسنپ <i class="fa-solid fa-angle-down"></i> </a></i>
-                            <div class="sub-menu">
-                                <ul>
-                                  <li> <a href="#"> درخواست تاکسی</a> </li> 
-                                  <li> <a href="#"> پیک موتوری</a></li>
-                                  <li><a href="#"> سفارش غذای انلاین</a></li>    
-                                </ul>
-                            </div>
-                        </li>
-                        </ul>
+                   <div class="main-menu">
+  <ul>
+    <li class="menu-item open-down">
+      <a href="#">سوپر اسنپ <i class="fa-solid fa-angle-down"></i></a>
+      <ul class="sub-menu">     
+        <li class="menu-item"><a href="#">درخواست تاکسی</a></li>
+        <li class="menu-item"><a href="#">پیک موتوری</a></li>
+        <li class="menu-item"><a href="#">سفارش غذای آنلاین</a></li>  
+        <li class="menu-item"><a href="#">رزرو بلیط هواپیما</a></li>  
+        <li class="menu-item"><a href="#">رزرو بلیط قطار</a></li>  
+        <li class="menu-item"><a href="#">رزرو بلیط اتوبوس</a></li> 
+        <li class="menu-item"><a href="#">رزرو هتل</a></li> 
+        <li class="menu-item"><a href="#">درخواست وانت بار</a></li> 
+        <li class="menu-item"><a href="#">خدمات اسباب کشی</a></li> 
+        <li class="menu-item"><a href="#">فروشگاه اسنپ</a></li> 
+        <li class="menu-item"><a href="#">سرویس اعتباری</a></li> 
+        <li class="menu-item"><a href="#">پزشک و مشاور</a></li> 
+        <li class="menu-item"><a href="#">اسنپ پرو</a></li> 
+      </ul>
+    </li>
+    <li class="menu-item"><a href="#">ثبت نام راننده اسنپ</a></li>
+    <li class="menu-item"><a href="#">باشگاه رانندگان</a></li>
+    <li class="menu-item"><a href="#">پنل سازمانی</a></li>
+    <li class="menu-item"><a href="#">بلاگ</a></li>
+    <li class="menu-item open-down">
+      <a href="#">درباره اسنپ <i class="fa-solid fa-angle-down"></i></a>
+      <ul class="sub-menu">
+        <li class="menu-item"><a href="#">درخواست تاکسی</a></li> 
+        <li class="menu-item"><a href="#">پیک موتوری</a></li>
+        <li class="menu-item"><a href="#">سفارش غذای آنلاین</a></li>    
+      </ul>
+    </li>
+  </ul>
+</div>
+
+                    <div class="mobile-main-menu">
+                        <span><i class="fa-solid fa-bars"></i></span>
                     </div>
                 </div>
             </div>
@@ -62,7 +65,10 @@
                 <div class="hero-section__content">
                     <h1>تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپراپلیکیشن اسنپ!</h1>
                     <p>از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، رزرو هتل و... را میتوانید با اسنپ انجام دهید.</p>
-                    <button> <a href="#">ارسال لینک</a></button>
+                    <form>
+                        <input type="tel" name="phone number" placeholder="09xxxxxx6789">
+                        <button> ارسال لینک</button>
+                    </form>
                     <a class="vorod" href="#">ورود به وب اپلیکیشن اسنپ</a>
                 </div>
                 <div class="hero-section__baner"></div>
