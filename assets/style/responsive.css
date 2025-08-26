@@ -68,6 +68,7 @@
 
      .header .header__flex .mobile-main-menu {
          display: block;
+         width: 100%;
      }
 
      .hero-section .hero-section__baner,
@@ -96,6 +97,7 @@
  }
 
  @media(max-width:850px) {
+
      .apps ul li a {
 
          height: 100px;
@@ -104,4 +106,65 @@
      .tow-col-box--flex .content {
          padding: 0 30px;
      }
+ }
+
+ @media(max-width:460px) {
+
+     .hero-section .hero-section__flex {
+         flex-direction: column;
+     }
+
+     .hero-section .hero-section__content {
+         padding-right: 20px;
+         padding-left: 20px;
+         width: 100%;
+     }
+
+     .hero-section .hero-section__content h1 {
+         font-size: 36px;
+     }
+
+     .apps ul li {
+         width: 29%;
+         align-items: center;
+     }
+
+     .apps h2 {
+         font-size: 22px;
+     }
+
+     .apps ul li img {
+         width: 50px;
+         height: 50px;
+     }
+
+     .tow-col-box .tow-col-box--flex {
+         flex-direction: column;
+     }
+
+     .tow-col-box .content {
+         padding-left: 20px;
+         width: 100%;
+     }
+
+     .features ul li {
+         flex: 1 1 100%;
+     }
+
+     .apps ul {
+         gap: 15px;
+     }
+
+     .footer .footer-list--flex ul {
+         gap: 20px;
+         padding: 10px 30px;
+
+     }
+
+     .footer .footer-list--flex ul li p {
+         font-size: 16px;
+         margin: 0;
+         line-height: 1;
+     }
+
  }

@@ -226,7 +226,7 @@
      font-family: vazirmatn;
      font-size: 16px;
      padding: 12px;
-     margin: 0 15;
+     margin: 0 15px;
      color: #21AA58;
 
  }
@@ -492,7 +492,7 @@
      padding: 40px 25px;
      background: #fff;
      border-radius: 8px;
-     max-height: 266.26;
+     max-height: 266.26px;
 
  }
 
@@ -523,7 +523,6 @@
  .footer .footer-list--flex {
      display: flex;
      flex-direction: column;
-     gap: 20px;
      align-items: center;
  }
 
@@ -546,6 +545,7 @@
      display: flex;
      justify-content: center;
      gap: 15px;
+     padding: 10px 0;
  }
 
  .footer .social-logo ul li a img {
@@ -555,6 +555,7 @@
 
  .footer .certificate ul {
      display: flex;
+     flex-wrap: wrap;
      justify-content: center;
      align-items: center;
      gap: 15px;
